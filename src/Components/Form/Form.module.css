@@ -1,0 +1,33 @@
+.formBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 8px;
+  width: 100%;
+  margin: 10px;
+  padding: 20px;
+}
+
+.input {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 1em;
+  border: 1px solid transparent;
+  width: 90%;
+  height: 30px;
+}
+
+.noValid {
+  color: red;
+}
+
+.submitButton {
+  background-color: blue;
+  color: white;
+  margin: 15px;
+  width: 50%;
+  cursor: pointer;
+}
